@@ -19,6 +19,21 @@ body {
   font-weight: 700;
 }
 
+.realy-big  {
+  font-size: 10em;
+  font-weight: 100;
+  bol
+}
+
+.shadow {
+  text-shadow: 1px 1px 10px rgba(0,0,0, 0.7)
+}
+
+.transp4
+{
+ opacity:0.4
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
