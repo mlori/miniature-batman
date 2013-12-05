@@ -2,6 +2,7 @@
 
 html,
 body {
+  background: url(../img/bg_grey_grid.jpg);  
   height: 100%;
   width: 100%;
 }
@@ -143,7 +144,8 @@ body {
 /* Services */
 
 .services {
-  background: #7fbbda;
+  background: url(../img/bg_clouds_on_texture.jpg);
+/*  background: #7fbbda; */
   padding: 50px 0;
   color: #ffffff;
 }
@@ -199,7 +201,10 @@ i.service-icon {
 
 .call-to-action {
   color: #ffffff;
-  background: #0a5175;
+  background: url(../img/callout.jpg) no-repeat center center fixed;  
+  background-size: cover;
+  width: 100%;
+/*  background: #0a5175; */
   padding: 50px 0;
 }
 
