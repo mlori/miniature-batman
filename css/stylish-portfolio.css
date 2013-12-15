@@ -141,9 +141,6 @@ body {
   width: 100%;
   background-size: cover;
   position: relative;
-
-
-
 }
 
 /* Intro */
@@ -181,7 +178,6 @@ i.service-icon {
 
 .callout {
   color: #ffffff;
-  display: table;
   height: 400px;
   width: 100%;
   background: url(../img/callout.jpg) no-repeat center center fixed; 
@@ -260,7 +256,7 @@ i.scroll:hover {
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
+	background: url(../img/callout.jpg) no-repeat center center fixed; 
   }
 
   .map {
