@@ -135,6 +135,18 @@ body {
   background-size: cover;
 }
 
+.header2 {
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: relative;
+    display: table;
+
+
+
+}
+
 /* Intro */
 
 .intro {
