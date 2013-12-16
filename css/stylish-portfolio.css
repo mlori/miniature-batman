@@ -271,7 +271,7 @@ i.scroll:hover {
   }
 
   .callout {
-	background: url(../img/callout.jpg) no-repeat center center fixed; 
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
   }
 
   .map {
