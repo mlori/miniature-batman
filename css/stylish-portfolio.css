@@ -127,6 +127,9 @@ text-shadow: 1px 1px 10px rgba(0,0,0, 0.7)
 .toggle {
   margin: 5px 5px 0 0;
 }
+.navbar-inverse {
+opacity:0.6
+}
 
 /* Full Page Image Header Area */
 
