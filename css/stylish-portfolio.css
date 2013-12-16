@@ -38,6 +38,11 @@ text-shadow: 1px 1px 10px rgba(0,0,0, 0.7)
  opacity:0.4
 }
 
+.transp8
+{
+ opacity:0.8
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -138,12 +143,16 @@ text-shadow: 1px 1px 10px rgba(0,0,0, 0.7)
   background-size: cover;
 }
 
-.header2 {
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  height: 100%;
+.logo-image {
+  vertical-align: middle;
+  display: table-cell;
+  padding: 0 13px;
+}
+
+/* to scale images in IE width:100% is needed */
+.logo-image img {
+  max-width: 100%;
   width: 100%;
-  background-size: cover;
-  position: relative;
 }
 
 /* Intro */
