@@ -38,7 +38,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">Rólunk</a></li>
+            <li data-toggle="collapse" data-target=".nav-collapse"><a href="#about">Rólunk</a></li>
             <li><a href="#services">Szolgáltatásaink</a></li>
             <li><a href="#winter-programs">Téli programok</a></li>
             <li><a href="#contact">Kontakt</a></li>
@@ -322,6 +322,11 @@
             $("#sidebar-wrapper").toggleClass("active");
         });
     </script>
+	<script>
+		$('.nav a').on('click', function(){
+			$(".navbar-toggle").click();
+		});
+	</script>
     <script>
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
