@@ -146,6 +146,21 @@ opacity:0.85
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  .header {
+  display: table;
+  
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+}
+
 .logo-image {
   vertical-align: middle;
   display: table-cell;
@@ -201,6 +216,19 @@ i.service-icon {
   -o-background-size: cover;
   background-size: cover;
 }
+@media (max-width: 768px) {
+ .callout {
+  color: #ffffff;
+  height: 400px;
+  width: 100%;
+	background: url(../img/callout.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+}
+
 
 
 
@@ -223,10 +251,10 @@ i.service-icon {
 
 .call-to-action {
   color: #ffffff;
-  background: url(../img/callout.jpg) no-repeat center center fixed;  
+  background: url(../img/callout.jpg) no-repeat center center ;  
   background-size: cover;
   width: 100%;
-/*  background: #0a5175; */
+  background: #0a5175; 
   padding: 50px 0;
 }
 
@@ -239,6 +267,12 @@ i.service-icon {
 .map {
   height: 500px;
 }
+@media (max-width: 768px) {
+  .map {
+	height: 75%;
+  }
+}
+
 
 /* Footer */
 
@@ -261,37 +295,4 @@ i.scroll {
 
 i.scroll:hover {
   color: #0a5175;
-}
-/* Responsive */
-
-@media (max-width: 768px) {
-	
-  .header {
-  display: table;
-  
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background: url(../img/bg.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  }
-
- .callout {
-  color: #ffffff;
-  height: 400px;
-  width: 100%;
-	background: url(../img/callout.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-  .map {
-	height: 75%;
-  }
-
 }
