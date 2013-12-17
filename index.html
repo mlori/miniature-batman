@@ -309,6 +309,13 @@
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
 
+	<script>
+		$('.nav a').on('click', function(){
+			$(".navbar-toggle").click();
+		});
+	</script>
+
+	
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
     <script>
         $("#menu-close").click(function(e) {
@@ -322,11 +329,6 @@
             $("#sidebar-wrapper").toggleClass("active");
         });
     </script>
-	<script>
-		$('.nav a').on('click', function(){
-			$(".navbar-toggle").click();
-		});
-	</script>
     <script>
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {
