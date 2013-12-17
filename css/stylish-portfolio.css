@@ -263,6 +263,10 @@ i.service-icon {
   margin: 10px;
 }
 
+.logo-btn {
+	 padding: 1px 1px;
+}
+
 /* Map */
 
 .map {
