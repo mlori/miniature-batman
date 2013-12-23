@@ -1,5 +1,10 @@
 @CHARSET "UTF-8";
 /* Side Menu */
+
+.logo-btn {
+	padding: 1px 2px;
+}
+
 #sidebar-wrapper {
 	margin-right: -250px;
 	right: 0;
