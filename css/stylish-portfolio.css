@@ -1,3 +1,10 @@
+@font-face {
+	font-family: 'BebasNeueRegular';
+	src: url('../fonts/BebasNeue-webfont.eot') format('embedded-opentype'), url('../fonts/BebasNeue-webfont.woff.html') format('woff'), url('../fonts/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/BebasNeue-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /* Global Styles */
 html,body {
 	background: url(../img/bg_grey_grid.jpg);
