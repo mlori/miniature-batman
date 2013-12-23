@@ -1,0 +1,43 @@
+/*========== B A C K G R O U N D    S K I N S =============*/
+
+::-moz-selection {
+ background: #127a97;
+}
+::selection {
+	background: #127a97;
+}
+.button,
+.caption,
+.title h1 {
+	background-color: #127a97;
+}
+
+/*========== B O X   S H A D O W    S K I N S =============*/
+
+.title h1,
+.service-box .service-icon {
+	box-shadow:0px 0px 0px 3px #127a97;
+}
+
+.tab a.selected {
+    box-shadow: 0px -3px 0px 0px #127a97;
+}
+
+
+
+
+
+
+/*========== C O L O R    S K I N S =============*/
+
+a,
+.highlight {
+	color:#127a97;
+}
+
+#home .highlight {
+color:#edb92e;
+}
+
+
+
