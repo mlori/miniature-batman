@@ -253,20 +253,32 @@ Call to Action
 Map
 --------------------------------------------------------*/
 .map {
-	height: 500px;
+	height: 400px;
 }
 
 @media ( max-width : 768px) {
 	.map {
-		height: 75%;
+		height: 250px;
 	}
 }
+
+.social-icons .social-icon {
+	display: inline-block;
+	float: none;
+	margin: 0 5px 5px 0;
+	background-color: rgba(0,0,0,0.05) !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
 
 /*--------------------------------------------------------
 Footer
 --------------------------------------------------------*/
 footer {
-	padding: 100px 0;
+	padding: 5px 0;
 }
 
 .top-scroll {
