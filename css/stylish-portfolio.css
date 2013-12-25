@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,800&effect=destruction);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin-ext&&effect=destruction);
+
+/*
 @font-face {
 	font-family: 'BebasNeueRegular';
 	src: url('../fonts/BebasNeue-webfont.eot') format('embedded-opentype'),
@@ -8,6 +11,7 @@
 	font-weight: normal;
 	font-style: normal;
 }
+*/
 
 /* Global Styles */
 html,body {
@@ -60,7 +64,6 @@ body {
 /* TYPOGRAPHY
 --------------------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-	text-transform: uppercase;
 	font-weight: 400;
 	margin-bottom: 10px;
 }
@@ -75,13 +78,13 @@ body #load {
 }
 
 #qLpercentage {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 60px !important;
 	line-height: 1;
 }
 
 h1 {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 80px;
 	text-transform: uppercase;
 	position: relative;
@@ -89,14 +92,14 @@ h1 {
 }
 
 h2 {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 44px;
 	text-transform: uppercase;
 	position: relative;
 }
 
 h3 {
-	font-family: 'BebasNeueRegular', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 30px;
 }
 
@@ -127,8 +130,11 @@ p.lead {
 	margin-bottom: 20px;
 	position: relative;
 	z-index: 1;
-	font-weight: 600;
+	font-weight: 600;text-align:justify
 }
+
+
+
 
 /*--------------------------------------------------------
 Header section
@@ -166,8 +172,13 @@ Header section
 /*--------------------------------------------------------
 About
 --------------------------------------------------------*/
-.info-section-white {
+.white-section {
 	background-color: white;
+}
+
+.grey-section {
+	background: url(../img/bg_grey_grid.jpg);
+	
 }
 
 /*--------------------------------------------------------
@@ -201,7 +212,7 @@ Callout
 --------------------------------------------------------*/
 .callout {
 	color: #ffffff;
-	height: 400px;
+	height: 250px;
 	width: 100%;
 	background: url(../img/callout.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -290,9 +301,8 @@ i.scroll:hover {
 }
 
 .title h1 {
-	line-height: 0.8;
 	margin-bottom: 20px;
-	line-height: 0.8;
+	line-height: 1;
 	display: inline-block;
 	padding: 10px 10px 3px;
 	background: #FFD600;
@@ -303,7 +313,7 @@ i.scroll:hover {
 
 .multipage .title h1 {
 	margin: 60px 0 40px;
-	line-height: 0.8;
+	line-height: 1;
 }
 
 .subtitle {
@@ -311,7 +321,6 @@ i.scroll:hover {
 	font-size: 25px;
 	line-height: 1.2;
 	padding: 0;
-	margin-bottom: 40px;
 	position: relative;
 	z-index: 1;
 	font-weight: 700;
