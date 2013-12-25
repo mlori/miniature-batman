@@ -150,17 +150,6 @@ Header section
 	}
 }
 
-.logo-image {
-	vertical-align: middle;
-	display: table-cell;
-	padding: 0 13px;
-}
-
-/* to scale images in IE width:100% is needed */
-.logo-image img {
-	max-width: 100%;
-	width: 100%;
-}
 
 /*--------------------------------------------------------
 About
