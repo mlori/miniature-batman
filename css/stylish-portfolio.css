@@ -353,11 +353,11 @@ i.scroll:hover {
 
 @media only screen and (max-width: 767px) {
 	h1 {
-		font-size: 54px;
+		font-size: 35px;
 		line-height: 1;
 	}
 	.title h1 {
-		font-size: 40px;
+		font-size: 35px;
 	}
 	.subtitle {
 		font-size: 18px;
